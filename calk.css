@@ -1,0 +1,32 @@
+#firstdiv
+{
+    width: 48%;
+    height: 465px;
+    margin-left: 320px;
+    margin-top: 64px;
+    background-color: chocolate;
+  }
+  #sediv
+  {
+    background-color: rgb(55, 21, 128);
+    width: 20%;
+    height: 15px;
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+  #as {
+    width: 68%;
+    height: 60px;
+    border: none;
+    margin-left: 97px;
+    margin-top: -33px;
+  }
+  .para
+  {
+    font-size: 49px;
+    
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 17px;
+  
+  }
