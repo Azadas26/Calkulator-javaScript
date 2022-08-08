@@ -6,16 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online calculator</title>
     <link rel="stylesheet" href="calk.css" type="text/css">
-    <script src="calk.js"></script>
+    <script>
+      clicked(val)
+      {
+            document.getElementById("as").value=val
+
+      }
+    </script>
     
 </head>
 <body>
-    
+  <div>  
   <div id="firstdiv">
       <p class="para">CALCULATOR</p>
     <input type="text" id="as">
-   
+     <div>
+    <div class="butdiff">
+      <button onclick="clicked(7)" class="butt" id="sev">7</button>
+      <button onclick="clicked(7)" class="butt">8</button>
+      <button onclick="clicked(7)" class="butt">9</button>
+    </div>
+   <div class="butdiff">
+    <button onclick="clicked(7)" class="butt">4</button>
+    <button onclick="clicked(7)" class="butt">5</button>
+    <button onclick="clicked(7)" class="butt">6</button>
+   </div>
+   <div class="butdiff">
+    <button onclick="clicked(7)" class="butt">1</button>
+    <button onclick="clicked(7)" class="butt">2</button>
+    <button onclick="clicked(7)" class="butt">3</button>
+   </div>
+   <div class="butdiff">
+    <button onclick="clicked(7)" class="butt">clr</button>
+    <button onclick="clicked(7)" class="butt">.</button>
+    <button onclick="clicked(7)" class="butt">=</button>
+   </div>
   </div>
+  </div>
+</div>
+
 
 
 

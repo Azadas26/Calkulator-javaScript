@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<body>
+    
+<button id="azad">clickme</button>
+<div style="width: 100px;height: 100px; background-color: red;"  id="cli">
+
+</div>
+
+<label for="">Enter</label>
+      <input type="text"id="azadas"> <br> 
+      <label id="error" style="display: none;">error</label>
+      <label for="">Second</label>
+      <input type="text" id="">
+
+<script>
+
+   $(document).ready(function()
+   {
+    $("#azad").click(function()
+    {
+       // alert("azad")
+       $("#cli").fadeToggle(3000)
+    })
+    $("#azad").mouseenter(function()
+          {
+                $(this).css({"background":"blue"})
+
+          })
+          $("#azad").mouseleave(function()
+          {
+                $(this).css({"background":"#fff"})
+
+          })
+          $("#azadas").blur(function()
+          {
+            var as=$(this).val()
+
+            if(as.length<4)
+            {
+                  alert("Enter")
+                  $("#error").show()
+            }
+          })
+
+
+   })
+</script>
+
+</body>
+</html>
